@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Keyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift_start" translatesAutoresizingMaskIntoConstraints="NO" id="BYr-Fg-KvP">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to add Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGl-MY-jS1">
+                                <rect key="frame" x="227" y="101" width="148" height="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go to Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WnD-S6-Qef">
+                                <rect key="frame" x="246" y="151" width="110" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General &gt; Keyboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8La-8F-p6i">
+                                <rect key="frame" x="225" y="204" width="152" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Swift Keyboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6h-gH-Y0F">
+                                <rect key="frame" x="225" y="265" width="151" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BYr-Fg-KvP" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="AY2-Hm-yyq"/>
+                            <constraint firstItem="WnD-S6-Qef" firstAttribute="top" secondItem="jGl-MY-jS1" secondAttribute="bottom" constant="28" id="BAZ-dB-zHi"/>
+                            <constraint firstItem="BYr-Fg-KvP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Hdl-6J-0wU"/>
+                            <constraint firstItem="c6h-gH-Y0F" firstAttribute="centerX" secondItem="BYr-Fg-KvP" secondAttribute="centerX" id="IVY-K6-tdl"/>
+                            <constraint firstAttribute="trailing" secondItem="BYr-Fg-KvP" secondAttribute="trailing" id="PES-go-CNu"/>
+                            <constraint firstItem="8La-8F-p6i" firstAttribute="top" secondItem="WnD-S6-Qef" secondAttribute="bottom" constant="32" id="WJl-SZ-j1a"/>
+                            <constraint firstItem="BYr-Fg-KvP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Xgv-NA-fgv"/>
+                            <constraint firstItem="jGl-MY-jS1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="81" id="alc-PF-Llg"/>
+                            <constraint firstItem="c6h-gH-Y0F" firstAttribute="top" secondItem="8La-8F-p6i" secondAttribute="bottom" constant="40" id="apO-SG-cPc"/>
+                            <constraint firstItem="WnD-S6-Qef" firstAttribute="centerX" secondItem="jGl-MY-jS1" secondAttribute="centerX" id="tcp-0O-s2A"/>
+                            <constraint firstItem="8La-8F-p6i" firstAttribute="centerX" secondItem="c6h-gH-Y0F" secondAttribute="centerX" id="yuz-7q-oas"/>
+                            <constraint firstItem="8La-8F-p6i" firstAttribute="centerX" secondItem="WnD-S6-Qef" secondAttribute="centerX" id="zdV-vr-cRe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="BYr-Fg-KvP" id="VoU-O5-F7y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="522"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="swift_start" width="400" height="588"/>
+    </resources>
+</document>

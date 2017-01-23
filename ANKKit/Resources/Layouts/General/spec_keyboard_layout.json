@@ -1,0 +1,43 @@
+{
+  "identifier" : "spec_keyboard_layout",
+
+  "rows" : [
+    { "x" : 3,
+      "y" : 12,
+      "key_padding" : 6,
+      "key_width" : 26,
+      "key_height" : 39,
+      "keys" : [
+        "[", "]", "{", "}", "#", "%", "^", "*", "+", "="
+      ]
+    },
+    { "x" : 3,
+      "y" : 66,
+      "key_padding" : 6,
+      "key_width" : 26,
+      "key_height" : 39,
+      "keys" : [
+        "_", "\\", "|", "~", "<", ">", "€", "£", "¥", "·"
+      ]
+    },
+    { "x" : 50,
+      "y" : 120,
+      "key_padding" : 5,
+      "key_width" : 39,
+      "key_height" : 39,
+      "keys" : [
+        ".", ",", "?", "!", "'"
+      ]
+    }
+  ],
+
+  "special_keys" : {
+    "123" : { "x" : 3, "y" : 120, "width" : 36, "height" : 39 },
+    "backspace" : { "x" : 281, "y" : 120, "width" : 36, "height" : 39 },
+
+    "ABC" : { "x" : 3, "y" : 174, "width" : 34, "height" : 39 },
+    "globus" : { "x" : 43, "y" : 174, "width" : 34, "height" : 39 },
+    "space" : { "x" : 83, "y" : 174, "width" : 154, "height" : 39 },
+    "return" : { "x" : 243, "y" : 174, "width" : 74, "height" : 39 }
+  }
+}
